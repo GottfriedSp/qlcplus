@@ -61,7 +61,10 @@ Requirements - Linux
 Requirements - Windows
 ----------------------
 
-* MSYS2 environment (https://msys2.github.io/)
+* Qt5.6.3
+* Visual Studio 2005
+* Visual Studio Extension - QtPackage
+- MSYS2 environment (https://msys2.github.io/) Not needed
 * DMX USB plugin: D2XX driver & development package (http://www.ftdichip.com/Drivers/D2XX.htm)
 * HID plugin: No additional requirements
 * MIDI plugin: No additional requirements
