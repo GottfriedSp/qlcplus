@@ -21,6 +21,12 @@
 #include <windows.h>
 #include <errno.h>
 
+#ifdef _MSC_VER
+#ifndef ENOFILE
+#define ENOFILE ENOENT
+#endif
+#endif
+
 #include "libusb_dyn.h"
 
 #define LIBUSB_DLL_NAME TEXT("libusb0.dll")
