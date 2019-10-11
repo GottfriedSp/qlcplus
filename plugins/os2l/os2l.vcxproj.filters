@@ -1,99 +1,118 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Form Files">
+    <Filter Include="Source Dateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Dateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Dateien">
       <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
       <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Dateien">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
       <ParseFiles>false</ParseFiles>
     </Filter>
-    <Filter Include="Form Files">
-      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
-      <Extensions>ui</Extensions>
-      <ParseFiles>false</ParseFiles>
-    </Filter>
-    <Filter Include="Generated Files">
+    <Filter Include="Generierte Dateien">
       <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
-      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
     </Filter>
-    <Filter Include="Generated Files">
-      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
-      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{9207a833-85b5-4157-9c0a-e11b24438282}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    <Filter Include="Generierte Dateien\Debug">
+      <UniqueIdentifier>{337a43f6-2ec0-458b-8e8d-4a0f1865b069}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    <Filter Include="Generierte Dateien\Release">
+      <UniqueIdentifier>{781efdb0-11b8-45fe-9763-cdc4a59619e8}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
     </Filter>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Translation Files">
-      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
-      <Extensions>ts;xlf</Extensions>
-      <ParseFiles>false</ParseFiles>
-    </Filter>
-    <Filter Include="Translation Files">
-      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
-      <Extensions>ts;xlf</Extensions>
-      <ParseFiles>false</ParseFiles>
+    <Filter Include="Translationen">
+      <UniqueIdentifier>{b903ede3-df0a-48b5-8162-cf3878acf8fd}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\interfaces\qlcioplugin.cpp">
+      <Filter>Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qlcioplugin.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qlcioplugin.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
     <ClCompile Include="os2lconfiguration.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Dateien</Filter>
     </ClCompile>
     <ClCompile Include="os2lplugin.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Dateien</Filter>
     </ClCompile>
-    <ClCompile Include="..\interfaces\qlcioplugin.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="GeneratedFiles\Debug\moc_os2lconfiguration.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_os2lconfiguration.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_os2lplugin.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_os2lplugin.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="os2lconfiguration.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="os2lplugin.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="..\interfaces\qlcioplugin.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
+    <ClInclude Include="..\interfaces\qlcmacros.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_os2lconfiguration.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\interfaces\qlcioplugin.h">
+      <Filter>Interfaces</Filter>
+    </CustomBuild>
+    <CustomBuild Include="os2lconfiguration.h">
+      <Filter>Header Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="os2lplugin.h">
+      <Filter>Header Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="os2lconfiguration.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <None Include="OS2L_ca_ES.ts">
-      <Filter>Translation Files</Filter>
+      <Filter>Translationen</Filter>
     </None>
     <None Include="OS2L_de_DE.ts">
-      <Filter>Translation Files</Filter>
+      <Filter>Translationen</Filter>
     </None>
     <None Include="OS2L_es_ES.ts">
-      <Filter>Translation Files</Filter>
+      <Filter>Translationen</Filter>
     </None>
     <None Include="OS2L_fr_FR.ts">
-      <Filter>Translation Files</Filter>
+      <Filter>Translationen</Filter>
     </None>
     <None Include="OS2L_it_IT.ts">
-      <Filter>Translation Files</Filter>
+      <Filter>Translationen</Filter>
     </None>
     <None Include="OS2L_ja_JP.ts">
-      <Filter>Translation Files</Filter>
+      <Filter>Translationen</Filter>
     </None>
     <None Include="OS2L_nl_NL.ts">
-      <Filter>Translation Files</Filter>
+      <Filter>Translationen</Filter>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <QtUic Include="os2lconfiguration.ui">
-      <Filter>Form Files</Filter>
-    </QtUic>
   </ItemGroup>
 </Project>

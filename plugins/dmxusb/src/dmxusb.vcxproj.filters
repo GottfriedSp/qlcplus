@@ -1,170 +1,217 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Generated Files">
-      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
-      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
-    </Filter>
-    <Filter Include="Generated Files">
-      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
-      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
-    </Filter>
-    <Filter Include="Source Files">
+    <Filter Include="Source Dateien">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+      <Extensions>cpp;cxx;c;def</Extensions>
     </Filter>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="Header Dateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
     </Filter>
-    <Filter Include="Translation Files">
-      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
-      <Extensions>ts;xlf</Extensions>
+    <Filter Include="Form Dateien">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Dateien">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
       <ParseFiles>false</ParseFiles>
     </Filter>
-    <Filter Include="Translation Files">
-      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
-      <Extensions>ts;xlf</Extensions>
-      <ParseFiles>false</ParseFiles>
+    <Filter Include="Generierte Dateien">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
     </Filter>
-    <Filter Include="interfaces">
-      <UniqueIdentifier>{83d0fb8e-2c73-40f0-8b49-ac2968d9146f}</UniqueIdentifier>
+    <Filter Include="Translationen">
+      <UniqueIdentifier>{a7a51be2-0b1c-4f46-ac12-e7e2ecba89a1}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{9ccd8f19-125a-4930-ad42-32484d217c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generierte Dateien\Debug">
+      <UniqueIdentifier>{b5491a4b-d688-49b3-b536-0f9fd16ff072}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien\Release">
+      <UniqueIdentifier>{8b1f4072-42b0-4fa6-9ab6-a98f1f5da3da}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
     </Filter>
     <Filter Include="Driver">
-      <UniqueIdentifier>{5ee65252-4112-4fd7-8231-e138c07aa0c4}</UniqueIdentifier>
+      <UniqueIdentifier>{f79d2bb4-1049-4c91-907c-71c16b2179be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Dateien\midi">
+      <UniqueIdentifier>{759338d4-e9a6-42b9-9f3c-f7e2a65944c8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dmxinterface.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Dateien</Filter>
     </ClCompile>
     <ClCompile Include="dmxusb.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Dateien</Filter>
     </ClCompile>
     <ClCompile Include="dmxusbconfig.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Dateien</Filter>
     </ClCompile>
     <ClCompile Include="dmxusbopenrx.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Dateien</Filter>
     </ClCompile>
     <ClCompile Include="dmxusbwidget.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Dateien</Filter>
     </ClCompile>
     <ClCompile Include="enttecdmxusbopen.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Dateien</Filter>
     </ClCompile>
     <ClCompile Include="enttecdmxusbpro.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="euroliteusbdmxpro.cpp">
+      <Filter>Source Dateien</Filter>
     </ClCompile>
     <ClCompile Include="ftd2xx-interface.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Dateien</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\midi\src\common\midiprotocol.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="nanodmx.cpp">
+      <Filter>Source Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="qtserial-interface.cpp">
+      <Filter>Source Dateien</Filter>
     </ClCompile>
     <ClCompile Include="stageprofi.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Dateien</Filter>
     </ClCompile>
     <ClCompile Include="vinceusbdmx512.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\$(Configuration)\moc_qlcioplugin.cpp">
-      <Filter>Generated Files</Filter>
+      <Filter>Source Dateien</Filter>
     </ClCompile>
     <ClCompile Include="..\..\interfaces\qlcioplugin.cpp">
-      <Filter>interfaces</Filter>
+      <Filter>Interfaces</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\$(Configuration)\moc_dmxusb.cpp">
-      <Filter>Generated Files</Filter>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qlcioplugin.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\$(Configuration)\moc_enttecdmxusbopen.cpp">
-      <Filter>Generated Files</Filter>
+    <ClCompile Include="GeneratedFiles\Release\moc_qlcioplugin.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="dmxinterface.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <QtMoc Include="dmxusbconfig.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="dmxusbopenrx.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
-    <ClInclude Include="dmxusbwidget.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <QtMoc Include="enttecdmxusbpro.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
-    <ClInclude Include="ftd2xx-interface.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\midi\src\common\midiprotocol.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="stageprofi.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="vinceusbdmx512.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\interfaces\qlcmacros.h">
-      <Filter>interfaces</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\driver\D2XXSDK\ftd2xx.h">
-      <Filter>Driver</Filter>
-    </ClInclude>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dmxusb.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dmxusb.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dmxusbconfig.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dmxusbconfig.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dmxusbopenrx.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dmxusbopenrx.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_enttecdmxusbopen.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_enttecdmxusbopen.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_enttecdmxusbpro.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_enttecdmxusbpro.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\midi\src\common\midiprotocol.cpp">
+      <Filter>Source Dateien\midi</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="DMX_USB_ca_ES.ts">
-      <Filter>Translation Files</Filter>
+      <Filter>Translationen</Filter>
     </None>
     <None Include="DMX_USB_cz_CZ.ts">
-      <Filter>Translation Files</Filter>
+      <Filter>Translationen</Filter>
     </None>
     <None Include="DMX_USB_de_DE.ts">
-      <Filter>Translation Files</Filter>
+      <Filter>Translationen</Filter>
     </None>
     <None Include="DMX_USB_es_ES.ts">
-      <Filter>Translation Files</Filter>
+      <Filter>Translationen</Filter>
     </None>
     <None Include="DMX_USB_fi_FI.ts">
-      <Filter>Translation Files</Filter>
+      <Filter>Translationen</Filter>
     </None>
     <None Include="DMX_USB_fr_FR.ts">
-      <Filter>Translation Files</Filter>
+      <Filter>Translationen</Filter>
     </None>
     <None Include="DMX_USB_it_IT.ts">
-      <Filter>Translation Files</Filter>
+      <Filter>Translationen</Filter>
     </None>
     <None Include="DMX_USB_ja_JP.ts">
-      <Filter>Translation Files</Filter>
+      <Filter>Translationen</Filter>
     </None>
     <None Include="DMX_USB_nl_NL.ts">
-      <Filter>Translation Files</Filter>
+      <Filter>Translationen</Filter>
     </None>
     <None Include="DMX_USB_pt_BR.ts">
-      <Filter>Translation Files</Filter>
+      <Filter>Translationen</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\..\interfaces\qlcioplugin.h">
-      <Filter>interfaces</Filter>
+      <Filter>Interfaces</Filter>
     </CustomBuild>
     <CustomBuild Include="dmxusb.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dmxusbconfig.h">
+      <Filter>Header Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dmxusbopenrx.h">
+      <Filter>Header Dateien</Filter>
     </CustomBuild>
     <CustomBuild Include="enttecdmxusbopen.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Dateien</Filter>
     </CustomBuild>
+    <CustomBuild Include="enttecdmxusbpro.h">
+      <Filter>Header Dateien</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\interfaces\qlcmacros.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="dmxinterface.h">
+      <Filter>Header Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="dmxusbwidget.h">
+      <Filter>Header Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="euroliteusbdmxpro.h">
+      <Filter>Header Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="ftd2xx-interface.h">
+      <Filter>Header Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="nanodmx.h">
+      <Filter>Header Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="stageprofi.h">
+      <Filter>Header Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="vinceusbdmx512.h">
+      <Filter>Header Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\driver\D2XXSDK\ftd2xx.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\midi\src\common\midiprotocol.h">
+      <Filter>Source Dateien\midi</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
