@@ -49,9 +49,9 @@ EFX::EFX(Doc* doc)
     : Function(doc, Function::EFXType)
     , m_algorithm(EFX::Circle)
     , m_isRelative(false)
-    , m_xFrequency(2)
-    , m_yFrequency(3)
-    , m_xPhase(M_PI / 2.0)
+    , m_xFrequency(2.0f)
+    , m_yFrequency(3.0f)
+    , m_xPhase(static_cast<float>(M_PI / 2.0))
     , m_yPhase(0)
     , m_propagationMode(Parallel)
     , m_legacyFadeBus(Bus::invalid())
@@ -273,8 +273,8 @@ void EFX::calculatePoint(Function::Direction direction, int startOffset, float i
     iterator = calculateDirection(direction, iterator);
     iterator += convertOffset(startOffset + getAttributeValue(StartOffset));
 
-    if (iterator >= M_PI * 2.0)
-        iterator -= M_PI * 2.0;
+    if (iterator >= static_cast<float>(M_PI * 2.0))
+        iterator -= static_cast<float>(M_PI * 2.0);
 
     calculatePoint(iterator, x, y);
 }
