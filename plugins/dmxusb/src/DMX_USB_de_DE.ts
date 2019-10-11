@@ -11,7 +11,7 @@
     <message>
         <location filename="dmxusb.cpp" line="143"/>
         <source>and compatible devices.</source>
-        <translation>Keine Geräte verfügbar.</translation>
+        <translation>und kompatible Geräte.</translation>
     </message>
     <message>
         <location filename="dmxusb.cpp" line="157"/>
