@@ -22,6 +22,7 @@
 #define DMXUSBWIDGET_H
 
 #include <QElapsedTimer>
+#include "qlcmacros.h"
 
 #if defined(FTD2XX)
   #include "ftd2xx-interface.h"
@@ -50,7 +51,7 @@ typedef struct
 /**
  * This is the base interface class for all the USB DMX widgets.
  */
-class DMXUSBWidget
+class PLUGIN_EXPORT DMXUSBWidget
 {
 public:
     /**

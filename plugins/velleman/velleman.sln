@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "velleman", "E:/Entwicklung/Externe Projekte/DMX/qlcplus/plugins/velleman/src\velleman.vcxproj", "{AFA1DC62-17F5-3325-AD45-3B762B21F6D1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "velleman_test", "E:/Entwicklung/Externe Projekte/DMX/qlcplus/plugins/velleman/test\velleman_test.vcxproj", "{9BF4F346-CEF5-34CA-8429-5E162CD48AEF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AFA1DC62-17F5-3325-AD45-3B762B21F6D1} = {AFA1DC62-17F5-3325-AD45-3B762B21F6D1}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFA1DC62-17F5-3325-AD45-3B762B21F6D1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AFA1DC62-17F5-3325-AD45-3B762B21F6D1}.Debug|Win32.Build.0 = Debug|Win32
+		{AFA1DC62-17F5-3325-AD45-3B762B21F6D1}.Release|Win32.ActiveCfg = Release|Win32
+		{AFA1DC62-17F5-3325-AD45-3B762B21F6D1}.Release|Win32.Build.0 = Release|Win32
+		{9BF4F346-CEF5-34CA-8429-5E162CD48AEF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9BF4F346-CEF5-34CA-8429-5E162CD48AEF}.Debug|Win32.Build.0 = Debug|Win32
+		{9BF4F346-CEF5-34CA-8429-5E162CD48AEF}.Release|Win32.ActiveCfg = Release|Win32
+		{9BF4F346-CEF5-34CA-8429-5E162CD48AEF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

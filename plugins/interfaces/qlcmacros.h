@@ -31,6 +31,16 @@
 #  define QLC_DECLSPEC Q_DECL_IMPORT
 #endif
 
+#ifdef _MSC_VER
+#  ifdef PLUGIN_DLL
+#    define PLUGIN_EXPORT __declspec(dllexport)
+#  else
+#    define PLUGIN_EXPORT __declspec(dllimport)
+#  endif
+#else
+#  define PLUGIN_EXPORT
+#endif
+
 #ifdef CLAMP
 #undef CLAMP
 #endif

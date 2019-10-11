@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="avolitesd4parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="channelmodifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="channelsgroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chaser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chaserrunner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chaserstep.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="collection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cuestack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dmxdumpfactoryproperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="doc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="efx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="efxfixture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fadechannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fixture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fixturegroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="genericdmxsource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="genericfader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gradient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="grandmaster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="grouphead.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inputoutputmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inputpatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ioplugincache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mastertimer-win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mastertimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="monitorproperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="outputpatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qlccapability.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qlcchannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qlcclipboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qlcfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qlcfixturedef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qlcfixturedefcache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qlcfixturehead.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qlcfixturemode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qlci18n.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qlcinputchannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qlcinputprofile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qlcinputsource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\interfaces\qlcioplugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qlcmodifierscache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qlcphysical.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qlcpoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rgbalgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rgbaudio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rgbimage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rgbmatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rgbplain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rgbscript.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rgbscriptscache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rgbtext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scenevalue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="script.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="show.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="showfunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="showrunner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="track.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="universe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="video.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="avolitesd4parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="bus.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="channelmodifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="channelsgroup.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="chaser.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="chaseraction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="chaserrunner.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="chaserstep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="collection.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="cue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="cuestack.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="dmxdumpfactoryproperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dmxsource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="doc.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="efx.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="efxfixture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fadechannel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="fixture.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="fixturegroup.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="function.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="genericdmxsource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="genericfader.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="gradient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="grandmaster.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="grouphead.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="inputoutputmap.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="inputpatch.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ioplugincache.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="mastertimer-win32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="mastertimer.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="monitorproperties.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="outputpatch.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="qlccapability.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="qlcchannel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="qlcclipboard.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="qlcfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qlcfixturedef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qlcfixturedefcache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qlcfixturehead.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qlcfixturemode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qlci18n.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="qlcinputchannel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="qlcinputprofile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="qlcinputsource.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\plugins\interfaces\qlcioplugin.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="qlcmodifierscache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qlcphysical.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qlcpoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rgbalgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="rgbaudio.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="rgbimage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="rgbmatrix.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="rgbplain.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="rgbscript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rgbscriptproperty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rgbscriptscache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rgbtext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="scene.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="scenevalue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="script.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="scriptwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="sequence.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="show.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="showfunction.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="showrunner.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="track.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="universe.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="video.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="qlcexport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

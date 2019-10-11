@@ -1,0 +1,2348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Dateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Dateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Dateien">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Dateien">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien\Debug">
+      <UniqueIdentifier>{9a3e214b-8898-4f77-bffa-09bba8fe4a9c}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generierte Dateien\Release">
+      <UniqueIdentifier>{f75be780-a027-4392-a634-0220e99bb856}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Dateien\ui">
+      <UniqueIdentifier>{36f6d954-8364-4aac-9113-88f7247e5cc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Dateien\ui\monitor">
+      <UniqueIdentifier>{7538dcb8-966b-44d5-bdf9-a13cbfd10300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Dateien\ui\showmanager">
+      <UniqueIdentifier>{70cbf15f-c4dc-41b4-8ba1-8832a97d80b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Dateien\ui\virtualconsole">
+      <UniqueIdentifier>{3add51d1-2a36-4a86-a7cc-1cb71a30cf7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Dateien\ui">
+      <UniqueIdentifier>{e4bfbf8a-a628-4b3b-b850-6afe66cde41a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Dateien\ui\monitor">
+      <UniqueIdentifier>{e34263c5-cb5e-4bc8-b819-05b591d77755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Dateien\ui\showmanager">
+      <UniqueIdentifier>{fca9d62b-d3b1-4709-8fa5-d7e2b059de84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Dateien\ui\virtualconsole">
+      <UniqueIdentifier>{8728861e-ecb7-496e-ad0f-5d75f1a0595d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Dateien\monitor">
+      <UniqueIdentifier>{6f9446ef-3b29-4493-82e1-e543fe66f4c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Dateien\showmanager">
+      <UniqueIdentifier>{881dfa2b-c783-4313-8b8b-72f19c5e5018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Dateien\virtualconsole">
+      <UniqueIdentifier>{8e519359-9f4b-4214-9c71-1b98c11fc2c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Translationen">
+      <UniqueIdentifier>{eb36506f-d67d-496e-a2df-99296b4cd344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Translationen\webaccess">
+      <UniqueIdentifier>{c9dfb78a-d7fa-4a06-9e1c-8921973e48fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Dateien\webaccess">
+      <UniqueIdentifier>{d3023693-b924-41b3-9c4d-4589ba41a384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Dateien\webaccess\qhttpserver">
+      <UniqueIdentifier>{d944acbc-6736-4487-b39d-6b082a15c538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Dateien\webaccess">
+      <UniqueIdentifier>{6f3c0c83-7610-4825-b79e-c585f597a281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Dateien\webaccess\qhttpserver">
+      <UniqueIdentifier>{704a96d7-d817-4b63-80ed-af012f651faa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="main.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\aboutbox.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\addchannelsgroup.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\addfixture.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\addresstool.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\addrgbpanel.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\app.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\apputil.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\assignhotkey.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\audiobar.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\audioeditor.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\audiotriggerwidget.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\channelmodifiereditor.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\channelmodifiergraphicsview.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\channelsselection.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\chasereditor.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\clickandgoslider.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\clickandgowidget.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\collectioneditor.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\consolechannel.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\createfixturegroup.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\ctkrangeslider.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\cuestackmodel.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\debugbox.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\dmxdumpfactory.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\docbrowser.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\efxeditor.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\efxpreviewarea.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\fixtureconsole.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\fixturegroupeditor.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\fixturemanager.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\fixtureremap.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\fixtureselection.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\fixturetreewidget.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\flowlayout.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\functionliveeditdialog.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\functionmanager.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\functionselection.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\functionstreewidget.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\functionwizard.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\grandmasterslider.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\groupsconsole.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\inputchanneleditor.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\inputoutputmanager.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\inputoutputpatcheditor.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\inputprofileeditor.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\inputselectionwidget.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\knobwidget.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\palettegenerator.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\playbackslider.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\positiontool.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\remapwidget.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\rgbitem.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\rgbmatrixeditor.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\sceneeditor.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\scripteditor.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\selectinputchannel.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\simpledesk.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\simpledeskengine.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\speeddial.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\speeddialwidget.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\universeitemwidget.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\videoeditor.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\videoprovider.cpp">
+      <Filter>Source Dateien\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\monitor\monitor.cpp">
+      <Filter>Source Dateien\ui\monitor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\monitor\monitorbackgroundselection.cpp">
+      <Filter>Source Dateien\ui\monitor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\monitor\monitorfixture.cpp">
+      <Filter>Source Dateien\ui\monitor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\monitor\monitorfixtureitem.cpp">
+      <Filter>Source Dateien\ui\monitor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\monitor\monitorfixturepropertieseditor.cpp">
+      <Filter>Source Dateien\ui\monitor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\monitor\monitorgraphicsview.cpp">
+      <Filter>Source Dateien\ui\monitor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\monitor\monitorlayout.cpp">
+      <Filter>Source Dateien\ui\monitor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\showmanager\audioitem.cpp">
+      <Filter>Source Dateien\ui\showmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\showmanager\efxitem.cpp">
+      <Filter>Source Dateien\ui\showmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\showmanager\headeritems.cpp">
+      <Filter>Source Dateien\ui\showmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\showmanager\multitrackview.cpp">
+      <Filter>Source Dateien\ui\showmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\showmanager\rgbmatrixitem.cpp">
+      <Filter>Source Dateien\ui\showmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\showmanager\sequenceitem.cpp">
+      <Filter>Source Dateien\ui\showmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\showmanager\showeditor.cpp">
+      <Filter>Source Dateien\ui\showmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\showmanager\showitem.cpp">
+      <Filter>Source Dateien\ui\showmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\showmanager\showmanager.cpp">
+      <Filter>Source Dateien\ui\showmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\showmanager\timingstool.cpp">
+      <Filter>Source Dateien\ui\showmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\showmanager\trackitem.cpp">
+      <Filter>Source Dateien\ui\showmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\showmanager\videoitem.cpp">
+      <Filter>Source Dateien\ui\showmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\addvcbuttonmatrix.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\addvcslidermatrix.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcaudiotriggers.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcaudiotriggersproperties.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcbutton.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcbuttonproperties.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcclock.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcclockproperties.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vccuelist.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vccuelistproperties.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcdockarea.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcframe.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcframepageshortcut.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcframeproperties.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vclabel.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcmatrix.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcmatrixcontrol.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcmatrixpresetselection.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcmatrixproperties.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcproperties.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcpropertieseditor.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcslider.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcsliderproperties.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcsoloframe.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcsoloframeproperties.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcspeeddial.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcspeeddialfunction.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcspeeddialpreset.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcspeeddialproperties.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcwidget.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcwidgetproperties.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcwidgetselection.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcxypad.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcxypadarea.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcxypadfixture.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcxypadfixtureeditor.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcxypadpreset.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\vcxypadproperties.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\virtualconsole\virtualconsole.cpp">
+      <Filter>Source Dateien\ui\virtualconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_qlcui.cpp">
+      <Filter>Generierte Dateien</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_aboutbox.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_aboutbox.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_addchannelsgroup.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_addchannelsgroup.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_addfixture.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_addfixture.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_addresstool.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_addresstool.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_addrgbpanel.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_addrgbpanel.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_app.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_app.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_assignhotkey.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_assignhotkey.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_audioeditor.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_audioeditor.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_audiotriggerwidget.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_audiotriggerwidget.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_channelmodifiereditor.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_channelmodifiereditor.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_channelmodifiergraphicsview.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_channelmodifiergraphicsview.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_channelsselection.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_channelsselection.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_chasereditor.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_chasereditor.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_clickandgoslider.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_clickandgoslider.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_clickandgowidget.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_clickandgowidget.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_collectioneditor.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_collectioneditor.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_consolechannel.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_consolechannel.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_createfixturegroup.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_createfixturegroup.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ctkrangeslider.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ctkrangeslider.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_cuestackmodel.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_cuestackmodel.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_debugbox.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_debugbox.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dmxdumpfactory.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dmxdumpfactory.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_docbrowser.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_docbrowser.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_efxeditor.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_efxeditor.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_efxpreviewarea.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_efxpreviewarea.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_fixtureconsole.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_fixtureconsole.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_fixturegroupeditor.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_fixturegroupeditor.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_fixturemanager.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_fixturemanager.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_fixtureremap.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_fixtureremap.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_fixtureselection.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_fixtureselection.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_fixturetreewidget.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_fixturetreewidget.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_functionliveeditdialog.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_functionliveeditdialog.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_functionmanager.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_functionmanager.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_functionselection.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_functionselection.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_functionstreewidget.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_functionstreewidget.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_functionwizard.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_functionwizard.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_grandmasterslider.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_grandmasterslider.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_groupsconsole.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_groupsconsole.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_inputchanneleditor.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_inputchanneleditor.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_inputoutputmanager.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_inputoutputmanager.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_inputoutputpatcheditor.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_inputoutputpatcheditor.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_inputprofileeditor.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_inputprofileeditor.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_inputselectionwidget.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_inputselectionwidget.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_knobwidget.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_knobwidget.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_palettegenerator.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_palettegenerator.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_playbackslider.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_playbackslider.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_positiontool.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_positiontool.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_remapwidget.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_remapwidget.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_rgbmatrixeditor.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_rgbmatrixeditor.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sceneeditor.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sceneeditor.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_scripteditor.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_scripteditor.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_selectinputchannel.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_selectinputchannel.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_simpledesk.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_simpledesk.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_simpledeskengine.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_simpledeskengine.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_speeddial.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_speeddial.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_speeddialwidget.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_speeddialwidget.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_universeitemwidget.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_universeitemwidget.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_videoeditor.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_videoeditor.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_videoprovider.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_videoprovider.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_monitor.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_monitor.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_monitorbackgroundselection.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_monitorbackgroundselection.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_monitorfixture.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_monitorfixture.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_monitorfixtureitem.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_monitorfixtureitem.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_monitorfixturepropertieseditor.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_monitorfixturepropertieseditor.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_monitorgraphicsview.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_monitorgraphicsview.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_audioitem.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_audioitem.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_efxitem.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_efxitem.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_headeritems.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_headeritems.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_multitrackview.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_multitrackview.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_rgbmatrixitem.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_rgbmatrixitem.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sequenceitem.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sequenceitem.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_showeditor.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_showeditor.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_showitem.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_showitem.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_showmanager.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_showmanager.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_timingstool.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_timingstool.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_trackitem.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_trackitem.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_videoitem.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_videoitem.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_addvcbuttonmatrix.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_addvcbuttonmatrix.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_addvcslidermatrix.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_addvcslidermatrix.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vcaudiotriggers.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vcaudiotriggers.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vcaudiotriggersproperties.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vcaudiotriggersproperties.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vcbutton.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vcbutton.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vcbuttonproperties.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vcbuttonproperties.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vcclock.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vcclock.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vcclockproperties.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vcclockproperties.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vccuelist.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vccuelist.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vccuelistproperties.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vccuelistproperties.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vcdockarea.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vcdockarea.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vcframe.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vcframe.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vcframeproperties.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vcframeproperties.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vclabel.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vclabel.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vcmatrix.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vcmatrix.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vcmatrixpresetselection.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vcmatrixpresetselection.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vcmatrixproperties.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vcmatrixproperties.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vcpropertieseditor.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vcpropertieseditor.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vcslider.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vcslider.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vcsliderproperties.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vcsliderproperties.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vcsoloframe.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vcsoloframe.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vcsoloframeproperties.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vcsoloframeproperties.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vcspeeddial.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vcspeeddial.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vcspeeddialproperties.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vcspeeddialproperties.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vcwidget.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vcwidget.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vcwidgetselection.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vcwidgetselection.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vcxypad.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vcxypad.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vcxypadarea.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vcxypadarea.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vcxypadfixtureeditor.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vcxypadfixtureeditor.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vcxypadproperties.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vcxypadproperties.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_virtualconsole.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_virtualconsole.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webaccess\src\webaccess.cpp">
+      <Filter>Source Dateien\webaccess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webaccess\src\webaccessauth.cpp">
+      <Filter>Source Dateien\webaccess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webaccess\src\webaccessconfiguration.cpp">
+      <Filter>Source Dateien\webaccess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webaccess\src\webaccessnetwork.cpp">
+      <Filter>Source Dateien\webaccess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webaccess\src\webaccesssimpledesk.cpp">
+      <Filter>Source Dateien\webaccess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webaccess\src\qhttpserver\http_parser.c">
+      <Filter>Source Dateien\webaccess\qhttpserver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webaccess\src\qhttpserver\qhttpconnection.cpp">
+      <Filter>Source Dateien\webaccess\qhttpserver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webaccess\src\qhttpserver\qhttprequest.cpp">
+      <Filter>Source Dateien\webaccess\qhttpserver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webaccess\src\qhttpserver\qhttpresponse.cpp">
+      <Filter>Source Dateien\webaccess\qhttpserver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\webaccess\src\qhttpserver\qhttpserver.cpp">
+      <Filter>Source Dateien\webaccess\qhttpserver</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qhttpconnection.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qhttpconnection.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qhttprequest.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qhttprequest.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qhttpresponse.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qhttpresponse.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qhttpserver.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qhttpserver.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_webaccess.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_webaccess.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_webaccesssimpledesk.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_webaccesssimpledesk.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\ui\src\qlcui.qrc">
+      <Filter>Resource Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\aboutbox.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\addchannelsgroup.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\addfixture.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\addresstool.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\addrgbpanel.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\app.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\assignhotkey.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\audioeditor.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\audiotriggerwidget.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\channelmodifiereditor.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\channelmodifiergraphicsview.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\channelsselection.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\chasereditor.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\clickandgoslider.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\clickandgowidget.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\collectioneditor.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\consolechannel.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\createfixturegroup.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\ctkrangeslider.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\cuestackmodel.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\debugbox.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\dmxdumpfactory.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\docbrowser.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\efxeditor.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\efxpreviewarea.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\fixtureconsole.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\fixturegroupeditor.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\fixturemanager.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\fixtureremap.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\fixtureselection.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\fixturetreewidget.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\functionliveeditdialog.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\functionmanager.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\functionselection.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\functionstreewidget.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\functionwizard.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\grandmasterslider.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\groupsconsole.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\inputchanneleditor.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\inputoutputmanager.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\inputoutputpatcheditor.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\inputprofileeditor.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\inputselectionwidget.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\knobwidget.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\palettegenerator.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\playbackslider.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\positiontool.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\remapwidget.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\rgbmatrixeditor.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\sceneeditor.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\scripteditor.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\selectinputchannel.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\simpledesk.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\simpledeskengine.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\speeddial.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\speeddialwidget.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\universeitemwidget.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\videoeditor.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\videoprovider.h">
+      <Filter>Header Dateien\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\monitor\monitor.h">
+      <Filter>Header Dateien\ui\monitor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\monitor\monitorbackgroundselection.h">
+      <Filter>Header Dateien\ui\monitor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\monitor\monitorfixture.h">
+      <Filter>Header Dateien\ui\monitor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\monitor\monitorfixtureitem.h">
+      <Filter>Header Dateien\ui\monitor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\monitor\monitorfixturepropertieseditor.h">
+      <Filter>Header Dateien\ui\monitor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\monitor\monitorgraphicsview.h">
+      <Filter>Header Dateien\ui\monitor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\showmanager\audioitem.h">
+      <Filter>Header Dateien\ui\showmanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\showmanager\efxitem.h">
+      <Filter>Header Dateien\ui\showmanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\showmanager\headeritems.h">
+      <Filter>Header Dateien\ui\showmanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\showmanager\multitrackview.h">
+      <Filter>Header Dateien\ui\showmanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\showmanager\rgbmatrixitem.h">
+      <Filter>Header Dateien\ui\showmanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\showmanager\sequenceitem.h">
+      <Filter>Header Dateien\ui\showmanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\showmanager\showeditor.h">
+      <Filter>Header Dateien\ui\showmanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\showmanager\showitem.h">
+      <Filter>Header Dateien\ui\showmanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\showmanager\showmanager.h">
+      <Filter>Header Dateien\ui\showmanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\showmanager\timingstool.h">
+      <Filter>Header Dateien\ui\showmanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\showmanager\trackitem.h">
+      <Filter>Header Dateien\ui\showmanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\showmanager\videoitem.h">
+      <Filter>Header Dateien\ui\showmanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\addvcbuttonmatrix.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\addvcslidermatrix.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcaudiotriggers.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcaudiotriggersproperties.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcbutton.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcbuttonproperties.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcclock.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcclockproperties.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vccuelist.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vccuelistproperties.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcdockarea.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcframe.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcframeproperties.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vclabel.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcmatrix.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcmatrixpresetselection.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcmatrixproperties.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcpropertieseditor.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcslider.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcsliderproperties.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcsoloframe.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcsoloframeproperties.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcspeeddial.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcspeeddialproperties.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcwidget.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcwidgetselection.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcxypad.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcxypadarea.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcxypadfixtureeditor.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcxypadproperties.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\virtualconsole.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\aboutbox.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\addchannelsgroup.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\addfixture.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\addresstool.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\addrgbpanel.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\assignhotkey.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\audioeditor.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\channelmodifiereditor.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\channelsselection.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\chasereditor.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\collectioneditor.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\createfixturegroup.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\debugbox.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\dmxdumpfactory.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\efxeditor.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\fixturegroupeditor.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\fixtureremap.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\fixtureselection.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\functionselection.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\functionwizard.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\inputchanneleditor.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\inputoutputpatcheditor.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\inputprofileeditor.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\inputselectionwidget.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\positiontool.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\rgbmatrixeditor.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\sceneeditor.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\scripteditor.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\selectinputchannel.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\videoeditor.ui">
+      <Filter>Form Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\monitor\monitorbackgroundselection.ui">
+      <Filter>Form Dateien\monitor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\monitor\monitorfixturepropertieseditor.ui">
+      <Filter>Form Dateien\monitor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\showmanager\showeditor.ui">
+      <Filter>Form Dateien\showmanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\addvcbuttonmatrix.ui">
+      <Filter>Form Dateien\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\addvcslidermatrix.ui">
+      <Filter>Form Dateien\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcaudiotriggersproperties.ui">
+      <Filter>Form Dateien\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcbuttonproperties.ui">
+      <Filter>Form Dateien\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcclockproperties.ui">
+      <Filter>Form Dateien\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vccuelistproperties.ui">
+      <Filter>Form Dateien\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcframeproperties.ui">
+      <Filter>Form Dateien\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcmatrixpresetselection.ui">
+      <Filter>Form Dateien\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcmatrixproperties.ui">
+      <Filter>Form Dateien\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcproperties.ui">
+      <Filter>Form Dateien\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcsliderproperties.ui">
+      <Filter>Form Dateien\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcspeeddialproperties.ui">
+      <Filter>Form Dateien\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcwidgetselection.ui">
+      <Filter>Form Dateien\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcxypadfixtureeditor.ui">
+      <Filter>Form Dateien\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ui\src\virtualconsole\vcxypadproperties.ui">
+      <Filter>Form Dateien\virtualconsole</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\webaccess\src\qhttpserver\qhttpconnection.h">
+      <Filter>Header Dateien\webaccess\qhttpserver</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\webaccess\src\qhttpserver\qhttprequest.h">
+      <Filter>Header Dateien\webaccess\qhttpserver</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\webaccess\src\qhttpserver\qhttpresponse.h">
+      <Filter>Header Dateien\webaccess\qhttpserver</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\webaccess\src\qhttpserver\qhttpserver.h">
+      <Filter>Header Dateien\webaccess\qhttpserver</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\webaccess\src\webaccess.h">
+      <Filter>Header Dateien\webaccess</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\webaccess\src\webaccesssimpledesk.h">
+      <Filter>Header Dateien\webaccess</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\resources\icons\png\add_dump.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\animation.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\attach.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\audio.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\audioinput.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\autostart.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\back.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\beam.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\blackout.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\blind.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\button.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\buttonmatrix.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\chaser.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\check.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\checkbox_empty.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\checkbox_full.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\clock.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\collection.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\color.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\colorwheel.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\configure.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\cuelist.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\current.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\delete.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\design.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\detach.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\dimmer.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\diptool.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\down.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\ds_top.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\ds_border.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\ds_on.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\ds_off.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\ds_bottom.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\edit.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\editclear.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\editcopy.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\editcopyall.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\editcut.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\editdelete.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\editpaste.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\edit_add.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\edit_remove.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\effect.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\efx.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\exit.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\expand.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\fade.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\fan.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\fileclose.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\fileexport.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\fileimport.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\filenew.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\fileopen.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\filesave.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\filesaveas.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\fixture.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\folder.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\qlcplus-fixtureeditor.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\flash.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\flower.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\fontcolor.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\fonts.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\forward.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\frame.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\frameraised.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\framesunken.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\fullscreen.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\function.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\global.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\gobo.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\grid.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\group.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\hazer.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\help.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\image.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\input.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\input_output.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\intensity.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\laser.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\ledbar_beams.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\ledbar_pixels.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\liveedit.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\liveedit_vc.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\lock.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\key_bindings.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\knob.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\label.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\monitor.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\movinghead.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\operate.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\other.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\pan.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\panic.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\player_play.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\player_pause.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\player_stop.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\prism.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\qlcplus.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\qt.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\rainbow.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\random.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\record.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\remap.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\rgbmatrix.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\rgbpanel.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\resize.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\scanner.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\scene.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\script.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\sequence.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\show.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\shutter.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\slider.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\slidermatrix.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\smoke.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\soloframe.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\speed.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\star.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\square.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\strobe.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\tabview.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\tilt.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\uncheck.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\undo.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\ungroup.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\unlock.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\up.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\video.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\virtualconsole.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\wizard.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\wizard_256.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\xypad-point.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\xypad-point-blue.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\xypad-point-yellow.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="..\resources\icons\png\xypad.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ui\src\apputil.h">
+      <Filter>Header Dateien\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ui\src\audiobar.h">
+      <Filter>Header Dateien\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ui\src\flowlayout.h">
+      <Filter>Header Dateien\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ui\src\rgbitem.h">
+      <Filter>Header Dateien\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ui\src\monitor\monitorlayout.h">
+      <Filter>Header Dateien\ui\monitor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ui\src\virtualconsole\vcframepageshortcut.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ui\src\virtualconsole\vcmatrixcontrol.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ui\src\virtualconsole\vcproperties.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ui\src\virtualconsole\vcspeeddialfunction.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ui\src\virtualconsole\vcspeeddialpreset.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ui\src\virtualconsole\vcwidgetproperties.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ui\src\virtualconsole\vcxypadfixture.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ui\src\virtualconsole\vcxypadpreset.h">
+      <Filter>Header Dateien\ui\virtualconsole</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_aboutbox.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_addchannelsgroup.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_addfixture.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_addresstool.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_addrgbpanel.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_assignhotkey.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_audioeditor.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_channelmodifiereditor.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_channelsselection.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_chasereditor.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_collectioneditor.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_createfixturegroup.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_debugbox.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dmxdumpfactory.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_efxeditor.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_fixturegroupeditor.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_fixtureremap.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_fixtureselection.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_functionselection.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_functionwizard.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_inputchanneleditor.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_inputoutputpatcheditor.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_inputprofileeditor.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_inputselectionwidget.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_positiontool.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_rgbmatrixeditor.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_sceneeditor.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_scripteditor.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_selectinputchannel.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_videoeditor.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_monitorbackgroundselection.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_monitorfixturepropertieseditor.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_showeditor.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_addvcbuttonmatrix.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_addvcslidermatrix.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_vcaudiotriggersproperties.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_vcbuttonproperties.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_vcclockproperties.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_vccuelistproperties.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_vcframeproperties.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_vcmatrixpresetselection.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_vcmatrixproperties.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_vcproperties.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_vcsliderproperties.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_vcspeeddialproperties.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_vcwidgetselection.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_vcxypadfixtureeditor.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_vcxypadproperties.h">
+      <Filter>Generierte Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\webaccess\src\qhttpserver\http_parser.h">
+      <Filter>Header Dateien\webaccess\qhttpserver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\webaccess\src\qhttpserver\qhttpserverfwd.h">
+      <Filter>Header Dateien\webaccess\qhttpserver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\webaccess\src\commonjscss.h">
+      <Filter>Header Dateien\webaccess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\webaccess\src\webaccessauth.h">
+      <Filter>Header Dateien\webaccess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\webaccess\src\webaccessconfiguration.h">
+      <Filter>Header Dateien\webaccess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\webaccess\src\webaccessnetwork.h">
+      <Filter>Header Dateien\webaccess</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\ui\src\qlcplus_ca_ES.ts">
+      <Filter>Translationen</Filter>
+    </None>
+    <None Include="..\ui\src\qlcplus_cz_CZ.ts">
+      <Filter>Translationen</Filter>
+    </None>
+    <None Include="..\ui\src\qlcplus_de_DE.ts">
+      <Filter>Translationen</Filter>
+    </None>
+    <None Include="..\ui\src\qlcplus_es_ES.ts">
+      <Filter>Translationen</Filter>
+    </None>
+    <None Include="..\ui\src\qlcplus_fi_FI.ts">
+      <Filter>Translationen</Filter>
+    </None>
+    <None Include="..\ui\src\qlcplus_fr_FR.ts">
+      <Filter>Translationen</Filter>
+    </None>
+    <None Include="..\ui\src\qlcplus_it_IT.ts">
+      <Filter>Translationen</Filter>
+    </None>
+    <None Include="..\ui\src\qlcplus_ja_JP.ts">
+      <Filter>Translationen</Filter>
+    </None>
+    <None Include="..\ui\src\qlcplus_nl_NL.ts">
+      <Filter>Translationen</Filter>
+    </None>
+    <None Include="..\ui\src\qlcplus_pt_BR.ts">
+      <Filter>Translationen</Filter>
+    </None>
+    <None Include="..\webaccess\src\webaccess_ca_ES.ts">
+      <Filter>Translationen\webaccess</Filter>
+    </None>
+    <None Include="..\webaccess\src\webaccess_cz_CZ.ts">
+      <Filter>Translationen\webaccess</Filter>
+    </None>
+    <None Include="..\webaccess\src\webaccess_de_DE.ts">
+      <Filter>Translationen\webaccess</Filter>
+    </None>
+    <None Include="..\webaccess\src\webaccess_es_ES.ts">
+      <Filter>Translationen\webaccess</Filter>
+    </None>
+    <None Include="..\webaccess\src\webaccess_fi_FI.ts">
+      <Filter>Translationen\webaccess</Filter>
+    </None>
+    <None Include="..\webaccess\src\webaccess_fr_FR.ts">
+      <Filter>Translationen\webaccess</Filter>
+    </None>
+    <None Include="..\webaccess\src\webaccess_it_IT.ts">
+      <Filter>Translationen\webaccess</Filter>
+    </None>
+    <None Include="..\webaccess\src\webaccess_ja_JP.ts">
+      <Filter>Translationen\webaccess</Filter>
+    </None>
+    <None Include="..\webaccess\src\webaccess_nl_NL.ts">
+      <Filter>Translationen\webaccess</Filter>
+    </None>
+    <None Include="..\webaccess\src\webaccess_pt_BR.ts">
+      <Filter>Translationen\webaccess</Filter>
+    </None>
+    <None Include="..\webaccess\src\qhttpserver\qhttpserver.LICENSE">
+      <Filter>Source Dateien\webaccess\qhttpserver</Filter>
+    </None>
+    <None Include="..\webaccess\src\qhttpserver\http-parser.LICENSE-MIT">
+      <Filter>Source Dateien\webaccess\qhttpserver</Filter>
+    </None>
+  </ItemGroup>
+</Project>

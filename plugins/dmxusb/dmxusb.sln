@@ -1,0 +1,20 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dmxusb", "E:/Entwicklung/Externe Projekte/DMX/qlcplus/plugins/dmxusb/src\dmxusb.vcxproj", "{D8D44134-BDAB-3C36-88FC-501B2531880E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8D44134-BDAB-3C36-88FC-501B2531880E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D8D44134-BDAB-3C36-88FC-501B2531880E}.Debug|Win32.Build.0 = Debug|Win32
+		{D8D44134-BDAB-3C36-88FC-501B2531880E}.Release|Win32.ActiveCfg = Release|Win32
+		{D8D44134-BDAB-3C36-88FC-501B2531880E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

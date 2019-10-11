@@ -18,6 +18,11 @@
   limitations under the License.
 */
 
+#ifdef _MSC_VER
+#define WIN32_LEAN_AND_MEAN
+#include <Windows.h>
+#endif
+
 #include "ftd2xx-interface.h"
 #include "enttecdmxusbpro.h"
 

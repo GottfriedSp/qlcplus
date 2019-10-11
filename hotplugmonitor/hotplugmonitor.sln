@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hotplugmonitor", "E:/Entwicklung/Externe Projekte/DMX/qlcplus/hotplugmonitor/src\hotplugmonitor.vcxproj", "{A5A8A2A8-24A4-3654-BB82-53176DA3B642}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "E:/Entwicklung/Externe Projekte/DMX/qlcplus/hotplugmonitor/test\test.vcxproj", "{ED21AC98-96A4-3C83-9660-9DFD18344D10}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A5A8A2A8-24A4-3654-BB82-53176DA3B642} = {A5A8A2A8-24A4-3654-BB82-53176DA3B642}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5A8A2A8-24A4-3654-BB82-53176DA3B642}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A5A8A2A8-24A4-3654-BB82-53176DA3B642}.Debug|Win32.Build.0 = Debug|Win32
+		{A5A8A2A8-24A4-3654-BB82-53176DA3B642}.Release|Win32.ActiveCfg = Release|Win32
+		{A5A8A2A8-24A4-3654-BB82-53176DA3B642}.Release|Win32.Build.0 = Release|Win32
+		{ED21AC98-96A4-3C83-9660-9DFD18344D10}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ED21AC98-96A4-3C83-9660-9DFD18344D10}.Debug|Win32.Build.0 = Debug|Win32
+		{ED21AC98-96A4-3C83-9660-9DFD18344D10}.Release|Win32.ActiveCfg = Release|Win32
+		{ED21AC98-96A4-3C83-9660-9DFD18344D10}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

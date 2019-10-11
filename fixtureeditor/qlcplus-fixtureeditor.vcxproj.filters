@@ -1,0 +1,609 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts;xlf</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts;xlf</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ui\src\aboutbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addchannelsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="app.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\apputil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="capabilitywizard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\src\docbrowser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="editchannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="edithead.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="editmode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="editphysical.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fixtureeditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\ui\src\aboutbox.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="addchannelsdialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="app.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="..\ui\src\apputil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="capabilitywizard.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\ui\src\docbrowser.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="editchannel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="edithead.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="editmode.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="editphysical.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="fixtureeditor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fixtureeditor_ca_ES.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="fixtureeditor_cz_CZ.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="fixtureeditor_de_DE.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="fixtureeditor_es_ES.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="fixtureeditor_fi_FI.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="fixtureeditor_fr_FR.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="fixtureeditor_it_IT.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="fixtureeditor_ja_JP.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="fixtureeditor_nl_NL.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="fixtureeditor_pt_BR.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="..\ui\src\aboutbox.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="addchannelsdialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="capabilitywizard.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="editchannel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="edithead.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="editmode.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="editphysical.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="fixtureeditor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\resources\icons\png\add_dump.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\animation.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\attach.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\audio.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\audioinput.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\autostart.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\beam.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\blackout.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\blind.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\button.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\buttonmatrix.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\chaser.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\check.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\checkbox_empty.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\checkbox_full.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\clock.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\collection.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\color.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\colorwheel.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\configure.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\cuelist.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\current.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\delete.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\design.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\detach.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\dimmer.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\diptool.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\down.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\ds_border.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\ds_bottom.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\ds_off.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\ds_on.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\ds_top.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\edit.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\edit_add.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\edit_remove.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\editclear.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\editcopy.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\editcopyall.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\editcut.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\editdelete.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\editpaste.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\effect.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\efx.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\exit.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\expand.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\fade.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\fan.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\fileclose.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\fileexport.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\fileimport.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\filenew.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\fileopen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\filesave.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\filesaveas.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\fixture.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\flash.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\flower.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\folder.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\fontcolor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\fonts.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\forward.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\frame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\frameraised.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\framesunken.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\fullscreen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\function.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\global.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\gobo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\grid.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\group.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\hazer.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\help.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\image.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\input.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\input_output.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\intensity.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\key_bindings.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\knob.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\label.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\laser.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\ledbar_beams.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\ledbar_pixels.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\liveedit.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\liveedit_vc.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\lock.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\monitor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\movinghead.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\operate.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\other.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\pan.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\panic.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\player_pause.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\player_play.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\player_stop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\prism.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\qlcplus-fixtureeditor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\qlcplus.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="..\ui\src\qlcui.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="..\resources\icons\png\qt.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\rainbow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\random.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\record.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\remap.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\resize.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\rgbmatrix.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\rgbpanel.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\scanner.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\scene.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\script.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\sequence.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\show.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\shutter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\slider.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\slidermatrix.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\smoke.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\soloframe.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\speed.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\square.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\star.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\strobe.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\tabview.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\tilt.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\uncheck.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\undo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\ungroup.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\unlock.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\up.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\video.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\virtualconsole.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\wizard.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\wizard_256.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\xypad-point-blue.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\xypad-point-yellow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\xypad-point.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\icons\png\xypad.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="fixtureeditor.rc" />
+  </ItemGroup>
+</Project>

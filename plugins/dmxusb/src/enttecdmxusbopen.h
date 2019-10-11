@@ -26,8 +26,9 @@
 #include <QMutex>
 
 #include "dmxusbwidget.h"
+#include "qlcmacros.h"
 
-class EnttecDMXUSBOpen : public QThread, public DMXUSBWidget
+class PLUGIN_EXPORT EnttecDMXUSBOpen : public QThread, public DMXUSBWidget
 {
     Q_OBJECT
 

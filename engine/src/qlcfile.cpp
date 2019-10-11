@@ -146,13 +146,11 @@ QString QLCFile::errorString(QFile::FileError error)
 QString QLCFile::currentUserName()
 {
 #if defined(WIN32) || defined(Q_OS_WIN)
-  DWORD length = UNLEN + 1;
-  TCHAR *name = new TCHAR[length];
+  DWORD length = UNLEN;
+  TCHAR name[UNLEN];
   QString retval = "Unknown windows user";
   if(GetUserName(name, &length))
     retval = QString::fromUtf16((ushort*)name);
-
-  delete[] name;
   return retval;
 #else
  #if defined(Q_OS_ANDROID)

@@ -22,11 +22,12 @@
 #define DMXINTERFACE_H
 
 #include <QtCore>
+#include "qlcmacros.h"
 
 #define SETTINGS_TYPE_MAP "qlcftdi/typemap"
 #define SETTINGS_FREQ_MAP "qlcftdi/freqmap"
 
-class DMXInterface
+class PLUGIN_EXPORT DMXInterface
 {
     /************************************************************************
      * Construction & Generic Information

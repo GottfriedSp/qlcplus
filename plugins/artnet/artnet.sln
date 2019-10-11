@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "artnet", "E:/Entwicklung/Externe Projekte/DMX/qlcplus/plugins/artnet/src\artnet.vcxproj", "{22BC9430-1E7F-311A-884A-D6FCE90772EC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "artnet_test", "E:/Entwicklung/Externe Projekte/DMX/qlcplus/plugins/artnet/test\artnet_test.vcxproj", "{F74B14C9-7AA2-334E-8E0F-60B55F69DCE9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{22BC9430-1E7F-311A-884A-D6FCE90772EC} = {22BC9430-1E7F-311A-884A-D6FCE90772EC}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22BC9430-1E7F-311A-884A-D6FCE90772EC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{22BC9430-1E7F-311A-884A-D6FCE90772EC}.Debug|Win32.Build.0 = Debug|Win32
+		{22BC9430-1E7F-311A-884A-D6FCE90772EC}.Release|Win32.ActiveCfg = Release|Win32
+		{22BC9430-1E7F-311A-884A-D6FCE90772EC}.Release|Win32.Build.0 = Release|Win32
+		{F74B14C9-7AA2-334E-8E0F-60B55F69DCE9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F74B14C9-7AA2-334E-8E0F-60B55F69DCE9}.Debug|Win32.Build.0 = Debug|Win32
+		{F74B14C9-7AA2-334E-8E0F-60B55F69DCE9}.Release|Win32.ActiveCfg = Release|Win32
+		{F74B14C9-7AA2-334E-8E0F-60B55F69DCE9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

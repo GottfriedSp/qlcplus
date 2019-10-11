@@ -8,7 +8,6 @@
 *.lai
 *.so
 *.so*
-*.dll
 *.dylib
 .DS_Store
 
@@ -24,7 +23,6 @@ Makefile.*
 *-build-*
 ui_*
 object_*
-engine/src/qlcconfig.h
 *.swp
 *.qmlc
 moc_predefs.h
@@ -49,3 +47,12 @@ coverage/
 
 # Development IDEs
 .vscode/
+/.vs
+*.user
+*.db
+*.opendb
+GeneratedFiles
+/lib
+/obj
+/bin
+*.aps

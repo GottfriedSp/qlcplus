@@ -1,0 +1,1371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts;xlf</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts;xlf</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="addchannelsgroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addfixture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addresstool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addrgbpanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\addvcbuttonmatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\addvcslidermatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="app.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="apputil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assignhotkey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="audiobar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="audioeditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="showmanager\audioitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="audiotriggerwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="channelmodifiereditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="channelmodifiergraphicsview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="channelsselection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chasereditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clickandgoslider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clickandgowidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="collectioneditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="consolechannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="createfixturegroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ctkrangeslider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cuestackmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dmxdumpfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="docbrowser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="efxeditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="showmanager\efxitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="efxpreviewarea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fixtureconsole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fixturegroupeditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fixturemanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fixtureremap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fixtureselection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fixturetreewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="flowlayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="functionliveeditdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="functionmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="functionselection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="functionstreewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="functionwizard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="grandmasterslider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="groupsconsole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="showmanager\headeritems.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inputchanneleditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inputoutputmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inputoutputpatcheditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inputprofileeditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inputselectionwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="knobwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="monitor\monitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="monitor\monitorbackgroundselection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="monitor\monitorfixture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="monitor\monitorfixtureitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="monitor\monitorfixturepropertieseditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="monitor\monitorgraphicsview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="monitor\monitorlayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="showmanager\multitrackview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="palettegenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="playbackslider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="positiontool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="remapwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rgbitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rgbmatrixeditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="showmanager\rgbmatrixitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneeditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scripteditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="selectinputchannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="showmanager\sequenceitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="showmanager\showeditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="showmanager\showitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="showmanager\showmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="simpledesk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="simpledeskengine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="speeddial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="speeddialwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="showmanager\timingstool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="showmanager\trackitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="universeitemwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcaudiotriggers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcaudiotriggersproperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcbuttonproperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcclock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcclockproperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vccuelist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vccuelistproperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcdockarea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcframe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcframepageshortcut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcframeproperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vclabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcmatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcmatrixcontrol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcmatrixpresetselection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcmatrixproperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcproperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcpropertieseditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcslider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcsliderproperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcsoloframe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcsoloframeproperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcspeeddial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcspeeddialfunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcspeeddialpreset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcspeeddialproperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcwidgetproperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcwidgetselection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcxypad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcxypadarea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcxypadfixture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcxypadfixtureeditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcxypadpreset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\vcxypadproperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="videoeditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="showmanager\videoitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="videoprovider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualconsole\virtualconsole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="aboutbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="aboutbox.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="addchannelsgroup.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="addfixture.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="addresstool.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="addrgbpanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="virtualconsole\addvcbuttonmatrix.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="virtualconsole\addvcslidermatrix.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="app.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="apputil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="assignhotkey.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="audiobar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="audioeditor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="showmanager\audioitem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="audiotriggerwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="channelmodifiereditor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="channelmodifiergraphicsview.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="channelsselection.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="chasereditor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="clickandgoslider.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="clickandgowidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="collectioneditor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="consolechannel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="createfixturegroup.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ctkrangeslider.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="cuestackmodel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="dmxdumpfactory.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="docbrowser.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="efxeditor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="showmanager\efxitem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="efxpreviewarea.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="fixtureconsole.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="fixturegroupeditor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="fixturemanager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="fixtureremap.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="fixtureselection.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="fixturetreewidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="flowlayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="functionliveeditdialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="functionmanager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="functionselection.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="functionstreewidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="functionwizard.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="grandmasterslider.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="groupsconsole.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="showmanager\headeritems.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="inputchanneleditor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="inputoutputmanager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="inputoutputpatcheditor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="inputprofileeditor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="inputselectionwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="knobwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="monitor\monitor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="monitor\monitorbackgroundselection.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="monitor\monitorfixture.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="monitor\monitorfixtureitem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="monitor\monitorfixturepropertieseditor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="monitor\monitorgraphicsview.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="monitor\monitorlayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="showmanager\multitrackview.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="palettegenerator.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="playbackslider.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="positiontool.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="remapwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="rgbitem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="rgbmatrixeditor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="showmanager\rgbmatrixitem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="sceneeditor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="scripteditor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="selectinputchannel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="showmanager\sequenceitem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="showmanager\showeditor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="showmanager\showitem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="showmanager\showmanager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="simpledesk.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="simpledeskengine.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="speeddial.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="speeddialwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="showmanager\timingstool.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="showmanager\trackitem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="universeitemwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="virtualconsole\vcaudiotriggers.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="virtualconsole\vcaudiotriggersproperties.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="virtualconsole\vcbutton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="virtualconsole\vcbuttonproperties.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="virtualconsole\vcclock.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="virtualconsole\vcclockproperties.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="virtualconsole\vccuelist.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="virtualconsole\vccuelistproperties.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="virtualconsole\vcdockarea.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="virtualconsole\vcframe.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="virtualconsole\vcframepageshortcut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="virtualconsole\vcframeproperties.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="virtualconsole\vclabel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="virtualconsole\vcmatrix.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="virtualconsole\vcmatrixcontrol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="virtualconsole\vcmatrixpresetselection.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="virtualconsole\vcmatrixproperties.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="virtualconsole\vcproperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="virtualconsole\vcpropertieseditor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="virtualconsole\vcslider.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="virtualconsole\vcsliderproperties.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="virtualconsole\vcsoloframe.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="virtualconsole\vcsoloframeproperties.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="virtualconsole\vcspeeddial.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="virtualconsole\vcspeeddialfunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="virtualconsole\vcspeeddialpreset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="virtualconsole\vcspeeddialproperties.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="virtualconsole\vcwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="virtualconsole\vcwidgetproperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="virtualconsole\vcwidgetselection.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="virtualconsole\vcxypad.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="virtualconsole\vcxypadarea.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="virtualconsole\vcxypadfixture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="virtualconsole\vcxypadfixtureeditor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="virtualconsole\vcxypadpreset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="virtualconsole\vcxypadproperties.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="videoeditor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="showmanager\videoitem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="videoprovider.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="virtualconsole\virtualconsole.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="qlcplus_ca_ES.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="qlcplus_cz_CZ.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="qlcplus_de_DE.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="qlcplus_es_ES.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="qlcplus_fi_FI.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="qlcplus_fr_FR.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="qlcplus_it_IT.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="qlcplus_ja_JP.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="qlcplus_nl_NL.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="qlcplus_pt_BR.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="aboutbox.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="addchannelsgroup.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="addfixture.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="addresstool.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="addrgbpanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="virtualconsole\addvcbuttonmatrix.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="virtualconsole\addvcslidermatrix.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assignhotkey.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="audioeditor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="channelmodifiereditor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="channelsselection.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="chasereditor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="collectioneditor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="createfixturegroup.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dmxdumpfactory.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="efxeditor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="fixturegroupeditor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="fixtureremap.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="fixtureselection.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="functionselection.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="functionwizard.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="inputchanneleditor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="inputoutputpatcheditor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="inputprofileeditor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="inputselectionwidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="monitor\monitorbackgroundselection.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="monitor\monitorfixturepropertieseditor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="positiontool.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="rgbmatrixeditor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="sceneeditor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="scripteditor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="selectinputchannel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="showmanager\showeditor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="virtualconsole\vcaudiotriggersproperties.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="virtualconsole\vcbuttonproperties.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="virtualconsole\vcclockproperties.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="virtualconsole\vccuelistproperties.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="virtualconsole\vcframeproperties.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="virtualconsole\vcmatrixpresetselection.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="virtualconsole\vcmatrixproperties.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="virtualconsole\vcproperties.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="virtualconsole\vcsliderproperties.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="virtualconsole\vcspeeddialproperties.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="virtualconsole\vcwidgetselection.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="virtualconsole\vcxypadfixtureeditor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="virtualconsole\vcxypadproperties.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="videoeditor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\resources\icons\png\add_dump.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\animation.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\attach.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\audio.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\audioinput.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\autostart.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\beam.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\blackout.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\blind.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\button.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\buttonmatrix.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\chaser.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\check.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\checkbox_empty.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\checkbox_full.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\clock.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\collection.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\color.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\colorwheel.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\configure.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\cuelist.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\current.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\delete.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\design.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\detach.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\dimmer.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\diptool.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\down.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\ds_border.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\ds_bottom.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\ds_off.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\ds_on.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\ds_top.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\edit.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\edit_add.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\edit_remove.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\editclear.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\editcopy.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\editcopyall.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\editcut.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\editdelete.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\editpaste.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\effect.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\efx.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\exit.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\expand.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\fade.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\fan.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\fileclose.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\fileexport.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\fileimport.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\filenew.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\fileopen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\filesave.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\filesaveas.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\fixture.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\flash.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\flower.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\folder.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\fontcolor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\fonts.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\forward.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\frame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\frameraised.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\framesunken.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\fullscreen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\function.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\global.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\gobo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\grid.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\group.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\hazer.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\help.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\image.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\input.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\input_output.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\intensity.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\key_bindings.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\knob.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\label.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\laser.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\ledbar_beams.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\ledbar_pixels.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\liveedit.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\liveedit_vc.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\lock.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\monitor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\movinghead.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\operate.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\other.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\pan.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\panic.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\player_pause.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\player_play.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\player_stop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\prism.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\qlcplus-fixtureeditor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\qlcplus.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="qlcui.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="..\..\resources\icons\png\qt.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\rainbow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\random.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\record.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\remap.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\resize.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\rgbmatrix.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\rgbpanel.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\scanner.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\scene.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\script.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\sequence.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\show.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\shutter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\slider.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\slidermatrix.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\smoke.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\soloframe.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\speed.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\square.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\star.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\strobe.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\tabview.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\tilt.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\uncheck.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\undo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\ungroup.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\unlock.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\up.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\video.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\virtualconsole.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\wizard.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\wizard_256.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\xypad-point-blue.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\xypad-point-yellow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\xypad-point.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\resources\icons\png\xypad.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts;xlf</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts;xlf</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="qhttpserver\http_parser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qhttpserver\qhttpconnection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qhttpserver\qhttprequest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qhttpserver\qhttpresponse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qhttpserver\qhttpserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="webaccess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="webaccessauth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="webaccessconfiguration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="webaccesssimpledesk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="commonjscss.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qhttpserver\http_parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="qhttpserver\qhttpconnection.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="qhttpserver\qhttprequest.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="qhttpserver\qhttpresponse.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="qhttpserver\qhttpserver.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="qhttpserver\qhttpserverfwd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="webaccess.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="webaccessauth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="webaccessconfiguration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="webaccesssimpledesk.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="webaccess_ca_ES.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="webaccess_cz_CZ.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="webaccess_de_DE.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="webaccess_es_ES.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="webaccess_fi_FI.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="webaccess_fr_FR.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="webaccess_it_IT.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="webaccess_ja_JP.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="webaccess_nl_NL.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="webaccess_pt_BR.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
