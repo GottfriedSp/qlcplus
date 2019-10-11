@@ -323,7 +323,7 @@ bool QLCFixtureEditor::saveAs()
     path = dialog.selectedFiles().first();
     if (path.length() != 0)
     {
-        if (path.right(strlen(KExtFixture)) != QString(KExtFixture))
+        if (path.right(static_cast<int>(strlen(KExtFixture))) != QString(KExtFixture))
             path += QString(KExtFixture);
 
         m_fixtureDef->setPhysical(m_phyEdit->physical());
