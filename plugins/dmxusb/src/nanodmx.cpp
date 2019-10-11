@@ -171,7 +171,7 @@ bool NanoDMX::open(quint32 line, bool input)
 #ifdef QTSERIAL
     if (interface()->write(initSequence) == true)
 #else
-    if (m_file.write(initSequence) == true)
+    if (m_file.write(initSequence))
 #endif
     {
         if (checkReply() == false)
@@ -186,7 +186,7 @@ bool NanoDMX::open(quint32 line, bool input)
 #ifdef QTSERIAL
     if (interface()->write(initSequence) == true)
 #else
-    if (m_file.write(initSequence) == true)
+    if (m_file.write(initSequence))
 #endif
     {
         if (checkReply() == false)
