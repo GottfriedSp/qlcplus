@@ -24,6 +24,7 @@
 #include <QXmlStreamReader>
 #include <QXmlStreamWriter>
 
+#define _USE_MATH_DEFINES
 #include <math.h>
 
 #include "qlcfixturemode.h"
