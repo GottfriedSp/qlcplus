@@ -534,7 +534,7 @@ void ChaserEditor::slotShuffleClicked()
     }
 
     QList <QTreeWidgetItem*> selectedItems(m_tree->selectedItems());
-    int indicesToShuffle[selectedCount];
+    int *indicesToShuffle = new int[selectedCount];
 
     // save the selected scenes and their indices into a sorted array
     QListIterator <QTreeWidgetItem*> it(selectedItems);
@@ -574,6 +574,8 @@ void ChaserEditor::slotShuffleClicked()
     m_tree->clearSelection();
     for (i = 0; i < selectedCount; i++)
         m_tree->topLevelItem(indicesToShuffle[i])->setSelected(true);
+
+    delete[] indicesToShuffle;
 }
 
 void ChaserEditor::slotSpeedDialToggle(bool state)
